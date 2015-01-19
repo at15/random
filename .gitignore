@@ -1,0 +1,7 @@
+# Created by .gitignore support plugin (hsz.mobi)
+
+# Ignore idea stuff
+.idea/*
+
+# Ignore node_modules
+node_modules/*
