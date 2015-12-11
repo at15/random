@@ -10,7 +10,7 @@ First you need to have `config.js`, or you can config it programmatically.
 
 ````js
 {
-    music:{
+    audio:{
         light:[
             '/Users/gpl/Music/网易云音乐/*.mp3'
         ],

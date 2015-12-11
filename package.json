@@ -1,8 +1,13 @@
 {
-    "name": "random",
-    "version": "0.0.1",
-    "dependencies":{
-        "express":"latest",
-        "glob": "latest"
-    }
+  "name": "random",
+  "version": "0.0.1",
+  "repository": "https://github.com/at15/random",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "glob": "latest",
+    "morgan": "latest",
+    "log4js": "latest",
+    "lodash": "latest"
+  }
 }

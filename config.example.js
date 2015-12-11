@@ -3,7 +3,12 @@
  */
 var config = {
     port: 3838,
-    debug: true
+    debug: true,
+    audio: {
+        default: [
+            '/Users/gpl/Music/网易云音乐/*.mp3'
+        ]
+    }
 };
 
 module.exports = config;
