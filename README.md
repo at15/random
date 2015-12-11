@@ -23,14 +23,18 @@ First you need to have `config.js`, or you can config it programmatically.
 
 Add a `audio` tag to your html, remember to disable it in production.
 
-`http://localhost:3838/music?group=light` to random in light music
-`http://localhost:3838/music?group=_all` to random in all music
+- `http://localhost:3838/music?group=light` to random in light music
+- `http://localhost:3838/music` to use the default group
 
-````
-<div id="music">
+````html
 <audio autoplay loop>
   <source src="http://localhost:3838/music type="audio/mpeg">
   <p>If you can read this, your browser does not support the audio element.</p>
 </audio>
-</div>
 ```
+
+## RoadMap
+
+- [ ] publish as a cli in npm
+- [ ] random in groups
+- [ ] serve image and resize
